@@ -5,3 +5,11 @@ answer = ""
 for i in range(len(name)):
     answer = answer + name[i]
 print(answer)
+
+"""
+#This is the easy two line solution
+str = input()
+print(str.replace(' ', ''))
+"""
+
+
