@@ -8,3 +8,4 @@ def linear_search(list, target):
 lis = [1, 2, 3, 0, -11, 245, 4, 5]
 
 print(linear_search(lis, 0))
+
