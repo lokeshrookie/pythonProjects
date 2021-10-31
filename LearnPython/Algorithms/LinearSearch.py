@@ -1,12 +1,10 @@
 def linear_search(list, target):
-    for i in list:
-        if(list[i] == target):
+    for i in range(0, len(lis)):
+        if list[i] == target:
             return i
-    return -1
+    return None
 
 
-lis = [ 1, 2, 3, 0, -11, 245, 4, 5]
-# linear_search(lis, 3)
+lis = [1, 2, 3, 0, -11, 245, 4, 5]
+
 print(linear_search(lis, 0))
-
-
