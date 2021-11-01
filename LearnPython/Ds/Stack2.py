@@ -10,5 +10,4 @@ class Stack2(object):
 
     # Insert will
     def push(self, item):
-    def push(self, data):
-        self.stack.insert(self.numofitems, data)
+        self.stack.insert(self.numofitems, item)
