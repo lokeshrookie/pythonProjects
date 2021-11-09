@@ -6,6 +6,7 @@ def product_of_nums(num):
         return num
     return (num % 10) * product_of_nums(num // 10)
 
+
 print(product_of_nums(1243))
 
 
